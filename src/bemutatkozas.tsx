@@ -1,4 +1,5 @@
 import { Component, ReactNode } from "react";
+import kep from './profile.png';
 
 
 export default class Bemutatkozas extends Component {
@@ -11,7 +12,7 @@ export default class Bemutatkozas extends Component {
 
                     <h2>Jelenlegi tagjaink</h2>
 
-                    <img src="/profile.png" alt="Fotó a főnökről"/>
+                    <img src={kep} alt="Fotó a főnökről" className="kep"/>
 
                     <ul>
                         <li>Erdős Ildikó</li>
