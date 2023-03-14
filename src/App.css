@@ -1,4 +1,101 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+footer {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
 .kep {
   float: right;
   max-width: 8%;
+}
+.kep {
+  width: 50%;
+  height: auto;
+  margin: 20px;
+}
+
+
+h1 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+p {
+  font-size: 20px;
+  margin: 20px;
+  text-align: justify;
+}
+
+
+ul {
+  list-style: none;
+  font-size: 20px;
+  margin: 20px;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
 }
